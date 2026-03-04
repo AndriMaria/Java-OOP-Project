@@ -1,7 +1,7 @@
 # 🤝 Donation Management System
 
 ## 📚 About the Project
-This system manages the flow of donations between donors, beneficiaries, and organizations. It allows donators to offer materials or services, and beneficiaries to request them based on their needs and eligibility levels. It was developed collaboratively with another student as part of my Object-Oriented Programming course during my first year of university.
+- This system manages the flow of donations between donors, beneficiaries, and organizations. It allows donators to offer materials or services, and beneficiaries to request them based on their needs and eligibility levels. It was developed collaboratively with another student as part of my Object-Oriented Programming course during my first year of university.
 ---
 ## 🛠️ Technologies
 - ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
@@ -49,7 +49,7 @@ This system manages the flow of donations between donors, beneficiaries, and org
   - Manages the organization
 ---
 ## 📖 The Process
-I started by designing the class hierarchy, with `Entity` and `User` as abstract base classes. Then I built the concrete classes (`Material`, `Service`, `Donator`, `Beneficiary`) following OOP principles like inheritance and polymorphism.The most challenging part was implementing the eligibility logic in `Requests.java` — checking whether a beneficiary is allowed to receive a certain quantity based on their household size and what they have already received.
+- I started by designing the class hierarchy, with `Entity` and `User` as abstract base classes. Then I built the concrete classes (`Material`, `Service`, `Donator`, `Beneficiary`) following OOP principles like inheritance and polymorphism.The most challenging part was implementing the eligibility logic in `Requests.java` ,checking whether a beneficiary is allowed to receive a certain quantity based on their household size and what they have already received.
 ---
 ## 🎓 What I Learned
 - **Inheritance & Polymorphism** — Building class hierarchies with abstract classes
