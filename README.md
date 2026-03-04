@@ -1,12 +1,11 @@
 # 🤝 Donation Management System
 
 A Java-based Donation Management System built as part of my Object-Oriented Programming course during my first year of university. This is my first Java project.
-
 ---
 
 ## 📚 About the Project
 
-This system manages the flow of donations between donors, beneficiaries, and organizations. It allows donators to offer materials or services, and beneficiaries to request them based on their needs and eligibility levels.
+This system manages the flow of donations between donors, beneficiaries, and organizations. It allows donators to offer materials or services, and beneficiaries to request them based on their needs and eligibility levels. It was developed collaboratively with another student as part of my Object-Oriented Programming course during my first year of university.
 
 ---
 
