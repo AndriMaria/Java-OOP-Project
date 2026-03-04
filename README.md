@@ -1,21 +1,13 @@
 # 🤝 Donation Management System
 
-A Java-based Donation Management System built as part of my Object-Oriented Programming course during my first year of university. This is my first Java project.
----
-
 ## 📚 About the Project
-
 This system manages the flow of donations between donors, beneficiaries, and organizations. It allows donators to offer materials or services, and beneficiaries to request them based on their needs and eligibility levels. It was developed collaboratively with another student as part of my Object-Oriented Programming course during my first year of university.
-
 ---
-
 ## 🛠️ Technologies
-
-- ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white) **Java**
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
 - Object-Oriented Programming (OOP)
-
+- **Eclipse IDE**
 ---
-
 ## 🏗️ Class Structure
 
 | Class | Description |
@@ -56,26 +48,16 @@ This system manages the flow of donations between donors, beneficiaries, and org
 - **Admin**
   - Manages the organization
 ---
-
 ## 📖 The Process
-
-I started by designing the class hierarchy, with `Entity` and `User` as abstract base classes. Then I built the concrete classes (`Material`, `Service`, `Donator`, `Beneficiary`) following OOP principles like inheritance and polymorphism.
-
-The most challenging part was implementing the eligibility logic in `Requests.java` — checking whether a beneficiary is allowed to receive a certain quantity based on their household size and what they have already received.
-
+I started by designing the class hierarchy, with `Entity` and `User` as abstract base classes. Then I built the concrete classes (`Material`, `Service`, `Donator`, `Beneficiary`) following OOP principles like inheritance and polymorphism.The most challenging part was implementing the eligibility logic in `Requests.java` — checking whether a beneficiary is allowed to receive a certain quantity based on their household size and what they have already received.
 ---
-
 ## 🎓 What I Learned
-
 - **Inheritance & Polymorphism** — Building class hierarchies with abstract classes
 - **ArrayList Management** — Storing and manipulating collections of objects
 - **OOP Design** — Thinking about how real-world systems can be modeled with classes
 - **Java Basics** — Constructors, getters/setters, method overriding
-
 ---
-
 ## 🚀 How It Can Be Improved
-
 - Add a graphical user interface (GUI)
 - Implement proper exception handling (replace `System.out.println` error messages)
 - Add a database to persist data between sessions
