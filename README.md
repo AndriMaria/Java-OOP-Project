@@ -56,29 +56,6 @@ This system manages the flow of donations between donors, beneficiaries, and org
 
 - **Admin**
   - Manages the organization
-
----
-
-## ⚙️ How to Run
-
-1. Make sure you have **Java JDK** installed
-2. Clone the repository:
-```bash
-git clone https://github.com/your-username/Donation-Management-System.git
-```
-3. Navigate to the project folder:
-```bash
-cd Donation-Management-System
-```
-4. Compile all Java files:
-```bash
-javac *.java
-```
-5. Run the main class:
-```bash
-java main
-```
-
 ---
 
 ## 📖 The Process
